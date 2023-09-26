@@ -1,0 +1,114 @@
+*{
+    margin:0;
+	padding:0;
+    box-sizing:border-box;	
+}
+.container{
+	width:90%;
+	margin:0 auto;
+}
+.row
+{	
+    display:flex;
+    flex-wrap:wrap;
+}
+.col-1{
+	width:8.33%;
+	padding:0 10px;
+}
+.col-2{
+	width:16.66%;
+	padding:0 10px;
+}
+.col-3{
+	width:25%;
+	padding:0 10px;
+}
+.col-4{
+	width:33.32%;
+	padding:0 10px;
+}
+.col-5{
+	width:41.65%;
+	padding:0 10px;
+}
+.col-6{
+	width:50%;
+	padding:0 10px;
+}
+.col-7{
+	width:58.33%;
+	padding:0 10px;
+}
+.col-8{
+	width:66.66%;
+	padding:0 10px;
+}
+.col-9{
+	width:75%;
+	padding:0 10px;
+}
+.col-10{
+	width:83.33%;
+	padding:0 10px;
+}
+.col-11{
+	width:91.66%;
+	padding:0 10px;
+}
+.col-12{
+	width:100%;
+	padding:0 10px;
+}
+#fb{
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	height:100vh;
+}
+
+h1{
+	font-size:50px;
+	color:blue;
+}
+p{
+font-size:27px;
+}	
+input[type=text], input[type=password] {
+  width: 80%;
+  padding: 10px 15px;
+  margin: 4px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius:5px;
+  box-sizing: border-box;
+}
+
+.container2 {
+	text-align:center;
+	width:60%;
+	border:2px solid gray;
+  padding: 35px;
+}
+button {
+  background-color: blue;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius:10px;
+  cursor: pointer;
+  width: 80%;
+}
+button:hover {
+  opacity: 0.8;
+}
+.btn>button{
+  background-color: green;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius:10px;
+  width: 70%;
+}
